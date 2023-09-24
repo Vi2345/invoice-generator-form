@@ -39,6 +39,7 @@ header{
 .container{
     display: grid;
     grid-template-columns: auto auto;
+    gap: 1rem;
     padding: 2rem 3rem;
 }
 
@@ -46,8 +47,10 @@ header{
     width: 60rem;
     height: 90rem;
     padding: 1rem 2rem;
-    background-color: #00ffff;
+    background-color:#f5f5f5;
     border-radius: 10px;
+   font-weight: 400;
+ 
 }
 
 .card-element{
@@ -114,7 +117,7 @@ h1{
 
 .card-1 .card-2 input{
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 15px;
     width: 14rem;
     border-radius:10px;
    
@@ -135,13 +138,13 @@ input:hover{
 
 .card-3 .card-4{
     display: grid;
-    grid-template-columns: 9rem 9rem;
+    grid-template-columns: 10rem 10rem;
     align-items: center;
 }
 
 .card-3 .card-4 input{
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 15px;
     width: 14rem;  
     border-radius: 10px; 
    
@@ -244,12 +247,13 @@ input:hover{
     display: flex;
     justify-content: space-between;
     text-align: center;
-   margin-bottom:40px;
+   margin-bottom:20px;
     
 }
 
 .card-12 .card-13 i{
    font-size: 40px;
+   color:#deb887;
    
 }
 
@@ -280,6 +284,128 @@ input:hover{
     font-size: 19px;
 }
 
+.card-align{
+
+    width: 20rem;
+    height: 90rem;
+    background-color:#f5f5f5;
+    padding: 1rem 2rem;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item-1{
+    display: grid;
+    align-items: center;
+    font-size: 20px;
+}
+.button-3{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #a19b9b;
+    text-align: center;
+    color:#000000;
+    margin-bottom: 1rem;
+}
+.button-3:hover{
+   background-color: #f0f8ff;
+}
+
+.button-4{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff4500;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:#121294;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px; 
+    font-size: 18px;
+}
+
+.btn i{
+    padding: 5px;
+}
+
+.item-2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 2rem;
+}
+
+.button-5{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:#121294;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.button-6{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #a19b9b;
+    text-align: center;
+    color:#000000;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+
+.button-6:hover{
+    background-color: #f0f8ff;
+}
+
+.list{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    margin-bottom: 1rem;
+   
+}
+label{
+    font-size: 19px;
+}
+
+option{
+    font-size: 14px;
+
+}
+
+.set{
+    font-size: 16px;
+}
+
+.button-7{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid #a19b9b;
+    color: #000000;
+}
+
+.button-7:hover{
+    background-color: #f0f8ff;
+}
+
 .card-size{
     display: grid;
     align-items: center;
@@ -292,7 +418,7 @@ input:hover{
     width: 80rem;
     height: 85rem;
     border-radius: 10px;
-    background-color: #00ffff;
+    background-color:#f5f5f5;
     padding: 2rem 3rem;
  
 }
@@ -316,10 +442,350 @@ input:hover{
 
 .letter .letter-1 h6{
     font-size: 18px;
+    font-weight: 500;
     
 }
 
 .letter .letter-1 p{
     width:50rem;
+}
+footer{
+    padding: 1rem;
+    background-color:#f0f8ff;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solid span{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    
+}
+.solid p{
+    color: #a19b9b;
+}
+
+.nav-item i{
+    font-size: 25px;
+    padding: 10px;
+    color: #a19b9b;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .card{
+        width:28rem;
+        height: 30%;
+        padding: 1rem;
+    }
+
+    .card-body{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 3rem;
+        padding: 1rem 2rem;
+
+    }
+    
+    .card-1 .card-2{
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+       align-items: center;
+      
+    }
+
+    .card-3 .card-4{
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+       align-items: center;
+      
+    }
+
+    .card-5 {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: left; 
+        margin-top: 10%; 
+        padding: 1rem;
+       
+    }
+  
+
+    .card-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .card-11 textarea{
+        width: 25rem;
+      }
+    
+      .card-12{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+      }
+    
+    .card-14 .card-15{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+          
+    
+    .card-14 .card-16{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .card-align{
+        width: 28rem;
+    }
+
+
+
+.card-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+   
+}
+
+.card-item{
+    width: 28rem;
+    height: 30%;
+    padding: 1rem;
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.letter p{
+    width: 26rem;
+}
+
+.letter .letter-1{
+    width: 26rem;
+}
+
+.letter .letter-1 p{
+    width: 26rem;
+}
+
+.content{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+   
+}
+@media only screen and (min-width:360px)  and (max-width:480px)
+{
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .card{
+        width: 20rem;
+        height: 30%;
+        padding: 1rem;
+    }
+
+    .card-body{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 3rem;
+        padding: 0.5rem;
+    }
+
+    .card-1 .card-2{
+        display: grid;
+        grid-template-columns: 8rem 8rem;
+       align-items: center;
+      
+    }
+
+    .card-1 .card-2 input{
+        width: 10rem;
+        padding: 5px 10px;
+    }
+
+    .card-1 .card-2 label{
+        font-size: 15px;
+    }
+
+    .card-3 .card-4{
+        display: grid;
+        grid-template-columns: 8rem 8rem;
+       align-items: center;  
+    }
+    .card-3 .card-4 input{
+        width: 10rem;
+        padding: 5px 10px;
+    }
+
+    .card-3 .card-4 label{
+        font-size: 15px;
+    }
+
+    .card-5 {
+        display:flex;
+       flex-wrap: wrap;
+        align-items: center;
+        text-align: left;
+        margin-top: 10%;
+        padding: 10px;
+       
+    }
+
+
+    .card-6 input{
+        width: 18rem;
+        margin-bottom: 10px;
+
+    }
+       
+    .card-6 label{
+        font-size: 15px;
+    }
+
+    .card-7 input{
+        display: inline-block;
+        width: 18rem;
+        margin-bottom: 10px;
+    }
+.card-7 label{
+    font-size: 15px;
+}
+
+.card-8 input{
+    display: inline-block;
+    width: 18rem;
+    margin-bottom: 10px;
+}
+
+.card-8 label{
+    font-size: 15px;
+}
+  
+  
+.card-9 input{
+    display: inline-block;
+    width: 18rem; 
+    margin-bottom: 1rem;
+}
+
+.card-9 label{
+    font-size: 15px;
+}
+
+.card-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+  .card-11 textarea{
+    width: 18rem;
+  }
+
+  .card-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+.card-14 .card-15{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+      
+
+.card-14 .card-16{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card-align{
+    width: 20rem;
+}
+
+.card-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+   
+}
+
+.card-item{
+    width: 20rem;
+    height: 30%;
+    padding: 1rem;
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.letter p{
+    width:18rem;
+    font-size: 14px;
+}
+
+.letter .letter-1{
+    width: 18rem;
+}
+
+.letter .letter-1 h6{
+    font-size: 16px;
+}
+
+.letter .letter-1 p{
+    width: 18rem;
+    font-size: 14px;
+}
+
+.content{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+
+    
 }
 
