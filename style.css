@@ -94,7 +94,7 @@ span{
     display: grid;
     grid-template-columns: auto auto;
     padding: 4rem;
-    gap: 10rem;
+    gap: 9rem;
 }
 
 .card-1{
@@ -290,6 +290,7 @@ input:hover{
     height: 90rem;
     background-color:#f5f5f5;
     padding: 1rem 2rem;
+    border-radius: 10px;
 }
 
 .property{
@@ -357,6 +358,7 @@ input:hover{
     margin-bottom: 1rem;
     border-radius: 10px;
     font-size: 16px;
+    width: 8rem;
 }
 
 .button-6{
@@ -556,9 +558,18 @@ footer{
     }
     .card-align{
         width: 28rem;
+        height: 40rem;
     }
-
-
+.button-3{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 25rem;
+}
+.button-5{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 12rem;
+}
 
 .card-size{
     display: flex;
@@ -611,7 +622,7 @@ footer{
     
     }
     .card{
-        width: 20rem;
+        width: 21rem;
         height: 30%;
         padding: 1rem;
     }
@@ -632,8 +643,8 @@ footer{
     }
 
     .card-1 .card-2 input{
-        width: 10rem;
-        padding: 5px 10px;
+        width: 10.5rem;
+        padding: 5px;
     }
 
     .card-1 .card-2 label{
@@ -646,8 +657,8 @@ footer{
        align-items: center;  
     }
     .card-3 .card-4 input{
-        width: 10rem;
-        padding: 5px 10px;
+        width: 10.5rem;
+        padding: 5px;
     }
 
     .card-3 .card-4 label{
@@ -739,6 +750,20 @@ footer{
 
 .card-align{
     width: 20rem;
+    height:40rem;
+}
+
+.button-3{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 19rem;
+}
+
+ .button-5{
+    display: inline-block;
+    align-items: center;
+    padding: 10px 15px;
+    width: 8.5rem;
 }
 
 .card-size{
